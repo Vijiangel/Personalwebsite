@@ -1,0 +1,22 @@
+.left
+{
+    position:initial;
+    background-color:bisque;
+    padding : 20px;
+}
+.right
+{
+    position:initial;
+    background-color: rgb(189, 182, 173);
+    padding:60px;
+
+}
+.full
+{
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
